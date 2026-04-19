@@ -47,11 +47,16 @@ Built a dynamic User Directory web application that fetches and displays user da
 
 ## Challenges Faced
 1. Callback Hell & Promises
+
      Nested callbacks were difficult to read and manage.
      Transitioning to promises and async/await improved clarity
+
 2. Error handling confusion
-      Fetch not throwing errors for 404/500 responses was tricky.
-3. Handling Asynchronous flow
-       Initially struggled with understanding how async code executes.
+
+   Fetch not throwing errors for 404/500 responses was tricky.
+
+4. Handling Asynchronous flow
+
+   Initially struggled with understanding how async code executes.
 
 Add commit.
