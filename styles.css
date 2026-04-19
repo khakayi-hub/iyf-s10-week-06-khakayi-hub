@@ -1,0 +1,137 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Title */
+h1 {
+    margin-bottom: 15px;
+}
+
+/* Form */
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #4facfe;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00c6ff;
+}
+
+/* Card */
+.card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Weather Icon */
+#weather-icon {
+    width: 80px;
+}
+
+/* Details */
+.details {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Loading */
+#loading {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Error */
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* History */
+.history-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#history {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.history-item {
+    padding: 8px;
+    background: #eee;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.history-item:hover {
+    background: #ddd;
+}
+
+/* Hidden */
+.hidden {
+    display: none;
+}
+
+/* ========================= */
+/* Responsive Design */
+/* ========================= */
+
+/* Tablet */
+@media (min-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 600px;
+    }
+}
