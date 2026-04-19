@@ -15,15 +15,15 @@ Built a dynamic User Directory web application that fetches and displays user da
 
 
 ## Features
-- API DATA FETCHING
+- API DATA FETCHING: 
   Fetches user data from external API.
   Uses modern fetch() with async/await
   
-- ASYNCHRONOUS DATA HANDLING
+- ASYNCHRONOUS DATA HANDLING:
    Uses async/await for clean ,readavble code.
    Implements try/catch/finally for error handling
   
-- LOADING STATE
+- LOADING STATE:
    Display a"Loading..."indicator while fetching data.
    
   
